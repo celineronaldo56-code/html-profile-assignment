@@ -53,7 +53,7 @@ li {
 }
 .Menu {
     display: flex;
-    width: 1200px;
+    width: 1000px;
     position: absolute;
     left: 45%;
     bottom:30%;
