@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PRODUCT ORDER FORM </title>
+    <style>
+			body {
+				background-image: url(Images/shopping\ mall\ 1.243Z.png) ;
+				 background-repeat: no-repeat;
+        background-size: cover;
+    color: blue;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+			}
+
+			
+			.sharon:hover {
+				background-color: brown;
+				color: white;
+				transition: 1s;
+			}
+		</style>
+</head>
+<body>
+    <h1> part 3 Create a product order form for an online store.</h1>
+    <div class="order">
+        <form action="/action_page.php">
+            <label for="fname"> Full Name: </label> <br>
+            <input type="text" id="fname" name="fname" placeholder="Full Name" required> <br><br>
+            <label for="email"> Email: </label> <br>
+            <input type="email" id="email" name="email" placeholder="Your Email" required> <br><br>
+            <label for="phone"> Phone Number: </label> <br>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required> <br><br>
+            <label for="product"> Select Product: </label><br>
+            <select id="product" name="product">
+             <option value="iphones"> iphones </option>
+             <option value="laptop"> Laptop </option>
+             <option value="mobile"> Mobile Phone </option>
+             <option value="tablet"> Tablet </option>
+             <option value="accessories"> Accessories </option></select><br><br>
+             <label for="quantity"> Quantity: </label><br>
+         <input type="number" id="quantity" name="quantity" min="1" max="100" required><br><br>
+         <label for="favcolor"> Select your favorite color:</label><br>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+        <input type="radio" id="small" name="size" value="small">
+         <label for="small"> Small </label><br>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium"> Medium </label><br>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large"> Large </label><br>
+        <input type="radio" id="XL" name="size" value="XL">
+         <label for="XL"> XL </label><br><br>
+        <label for="date"> Date </label><br>
+        <input type="date" id="date" name="date" min="20000-12-31" max="2025-12-31" required><br><br>
+        <label for="time"> Time </label><br>
+        <input type="time" id="time" name="time" min="7:00am" max="7:00pm" required><br><br>
+        <input type="checkbox" id="address" name="address" placeholder="Your Address">
+				 <label for="address"> Shipping Address: </label> <br><br>
+        <input type="radio" id="payment1" name="payment1" placeholder="payment section">
+        <label for="payment1"> Credit Card </label><br>
+        <input type="radio" id="payment2" name="payment2" placeholder="payment section">
+        <label for="payment2"> PayPal </label><br>
+        <input type="radio" id="payment3" name="payment3" placeholder="payment section">
+				 <label for="payment3"> Cash on Delivery </label><br><br>
+				 <label for="text"> Comments: </label><br>
+				 <textarea type="textarea" rows="15" cols="30"></textarea><br><br>
+				 <h2> Do you accept our terms and condition? </h2>
+				 <input type="checkbox" id="condition" name="condition">
+			  <label for="condition"> Yes </label><br>
+				 <input type="checkbox" id="condition" name="condition">
+        <label for="condition"> No </label><br><br>
+				<input class="sharon" type="submit"><br>
+				<a href="multistep.html"> click to go the Multi-Step Form </a>
+		
+
+
+
+</body>
+</html>
