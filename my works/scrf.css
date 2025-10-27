@@ -11,6 +11,9 @@ button{
     color: black;
     margin-left: 30px;
 }
+button:hover{
+    background-color: cadetblue;
+}
 
 
 
