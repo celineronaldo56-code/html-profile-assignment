@@ -6,6 +6,11 @@
     margin: 15px;
     border-radius: 10px;
 }
+button{
+    background-color: wheat;
+    color: black;
+    margin-left: 30px;
+}
 
 
 
