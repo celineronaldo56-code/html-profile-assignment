@@ -49,15 +49,18 @@ h1{
     border-bottom-left-radius: 0px;
 }*/
 .rounded{
-border-radius: 10px; /* All corners */
-border-width: 30px;
+   border: 2px solid red;
+   border-radius: 10px; /* All corners */
+   border-width: 10px;
 } 
 .circle{
+    border: 2px solid green;
     border-radius: 50%; /*makes square element circular*/
     border-width: 20px;
 }
 .custom{
+    border: 2px solid lightcoral;
     border-radius: 10px 20px 30px 40px; /*top-left, top-right, bottom-right, bottom-left*/
-    border-width: 40px;
+    border-width: 30px;
 }
 
