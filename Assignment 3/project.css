@@ -1,0 +1,26 @@
+.cat{
+    font-family: 'Tangerine', serif;
+  font-size: 48px;
+  font-weight: 600px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+.container{
+    background-color: lightpink;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+#main{
+    background-color: navajowhite;
+    color: darkblue;
+    text-align: center;
+    text-shadow: 2px 2px 4px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.intro{
+    
+    
+
+    
+}
