@@ -6,9 +6,40 @@ body{background-color:#4caf50 ;
     padding: 15px 30px;
     margin: 15px;
     border-radius: 10px;
-
+    /* font-family: 'Tangerine', serif;
+  font-size: 48px;
+  font-weight: 600px;
+  text-shadow: 2px 2px 4px #aaa;*/
 }
 
 .boy:hover{
-    background-color: #800000;
+    background-color: lightcoral;
 }
+
+ button{
+    background-color: blue;
+    color: white;
+    }
+
+ button:hover{
+      background-color:chocolate;
+     }
+
+.sub{
+    background-color: orange;
+    color: white;
+}
+.sub:hover{
+    background-color: darkviolet;
+}
+#order{
+    color: red;
+    text-align: center;
+    font-family: apple-sysytem;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px;
+}
+.pet{
+    font-size: 25px;
+}
+
