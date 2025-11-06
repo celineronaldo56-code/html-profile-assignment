@@ -53,14 +53,24 @@
          <input type="radio" id="large" name="large" value="large" required>
          <label for="large"> Large </label><br>
           <input type="radio" id="XL" name="XL" value="XL" required>
-         <label for="XL"> XL </label><br>
-        
-
-       
-        
-       
-       
+         <label for="XL"> XL </label><br><br>
+          <label for="date"> Date </label><br>
+        <input type="date" id="date" name="date" min="20000-12-31" max="2025-12-31" required><br><br>
+        <label for="time"> Time </label><br>
+        <input type="time" id="time" name="time" min="7:00am" max="7:00pm" required><br><br>
+        <input type="checkbox" id="address" name="address" placeholder="Your Address">
+		 <label for="address"> Shipping Address: </label> <br><br>
+        <input type="checkbox" id="payment1" name="payment1" placeholder="payment section">
+        <label for="payment1"> Credit Card </label><br>
+        <input type="checkbox" id="payment2" name="payment2" placeholder="payment section">
+        <label for="payment2"> PayPal </label><br>
+        <input type="checkbox" id="payment3" name="payment3" placeholder="payment section">
+		 <label for="payment3"> Cash on Delivery </label><br><br>
+		 <label for="text"> Comments: </label><br>
+		 <textarea type="textarea" rows="15" cols="30"></textarea><br><br>
+        <input class="sub" type="submit"><br><br>
     </form>
+       <a href="multistep.html"><button> Next </button></a>
 
 </body>
 </html>
