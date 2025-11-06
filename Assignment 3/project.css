@@ -18,9 +18,14 @@
     padding: 10px;
     margin-top: 20px;
 }
-.intro{
-    
-    
+ button{
+    background-color: maroon;
+    color: white;
+    margin-left: 30px;
+    }
+
+ button:hover{
+      background-color:chocolate;
+     }
 
     
-}
