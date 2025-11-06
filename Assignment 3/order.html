@@ -8,7 +8,32 @@
 </head>
 <body>
     <h1> Creating My Own Online Order.</h1>
-    <p> Welcome to Sharon's Babies Boutique Online Order Page. Please fill in the form below to place your order.</p>
+    <p> Welcome to Sharon's Babies Boutique Online Order Page. Please fill in the form below to place your order.</p><br>
+    <form action="/action_page.php">
+        <label for="fullname"> </label>
+        <input style="width: 40%;" type="text" id="fullname" name="fullname" placeholder="Full Name" required><br><br>
+        <label for="email"> </label>
+         <input style="width: 40%"; type="text" id="email" name="email" placeholder="Email" required><br><br>
+        <label for="address"> </label>
+        <input style="width: 40%"; type="text" id="address" name="address" placeholder=" Address" required><br><br>
+         <label for="tel"> </label>
+        <input style="width: 20%"; type="text" id="tel" name="tel" placeholder="Phone Number" required><br><br><br>
+      <label for="product"> Select Product on Cloths, Shoes, Bags etc....: </label><br>
+        <select id="product" name="product" required>
+          <option value="unisex"> Unisex Cloths </option>
+          <option value="unisex shoes"> unisex shoes </option>
+         <option value="unisex bags"> unisex bags </option>
+         <option value="Boys"> Boys Cloths </option>
+         <option value="Girls"> Girls Cloths </option>
+        </select><br>
+        <p> Age Selection: </p>
+        <input type="radio" id="0-2yrs months" name="age" value="0-6 months" required>
+
+       
+        
+       
+       
+    </form>
 
 </body>
 </html>
