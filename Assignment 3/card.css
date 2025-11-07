@@ -1,0 +1,47 @@
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  font-style: italic;
+}
+
+#card{
+    background-color: lightpink;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius:10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    align-items: center;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    align-content: center;
+}
+    
+#card .profile-image{
+    line-height: 1.6;
+    color: gray;
+
+}
+#card .profile-image p{
+    font-size: 16px;
+}
+#card .normal button{
+    background-color: darkgreen;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#card .normal button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+    
