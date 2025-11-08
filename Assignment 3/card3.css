@@ -1,0 +1,45 @@
+.card{
+    width:320px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto ;/*(centered)*/
+    box-shadow: 0 2px 8px;
+}
+.image-container{
+    position: relative ;/*(for badge positioning )*/
+    width: 100%;
+}
+.badge{
+    background-color: red;
+    color: white;
+    position:absolute;
+    top:10px;right:10px;
+    padding: 5px 12px;
+    border: 15px;
+    font-size: 12px;
+}
+.product-title{
+    color: #333;
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+}
+.product-price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin: 10px 0;
+}
+.buy-button{
+    background-color: #28a745;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.buy-button:hover{
+    background-color: #218838;
+}
