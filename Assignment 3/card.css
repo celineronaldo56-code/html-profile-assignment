@@ -44,4 +44,12 @@
     background-color: lightgreen;
     cursor: pointer;
 }
+button{
+    background-color: lightpink;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
     
