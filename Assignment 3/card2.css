@@ -1,0 +1,57 @@
+
+body{
+    background: radial-gradient(green, lightgreen );
+}
+
+.image-card{
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    align-content: center;
+}.main-image img{
+    width: 100%;
+    
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 40px;
+}
+.image-card h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.image-card p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.image-card span{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width:799px) {
+    #main {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+    
+}
+
+@media (max-width: 477px) {
+    #main {
+    display: flex;
+    flex-direction: column;
+   
+}
+    
+}
