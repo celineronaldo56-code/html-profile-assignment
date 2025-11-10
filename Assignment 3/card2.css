@@ -1,6 +1,6 @@
 
 body{
-    background: radial-gradient(green, lightgreen );
+    background: linear-gradient(green, lightgreen );
 }
 
 .image-card{
