@@ -10,6 +10,11 @@
     position: relative ;/*(for badge positioning )*/
     width: 100%;
 }
+
+.image-container img{
+    width: 100%;
+}
+    
 .badge{
     background-color: red;
     color: white;
