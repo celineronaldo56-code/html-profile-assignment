@@ -1,3 +1,4 @@
+// ASSIGNMENT 1
 // Execise 1 (Personal Information)
 const fristName = "Celine";
 const lastName = "Ronaldo";
@@ -43,3 +44,33 @@ let str = 150===77;
 console.log(str1 + str2);
 console.log(num);
 console.log(str);
+
+// Execise 4 ( Shopping Cart)
+let productName = "Babies's Cloth";
+let price = 9000;
+let quantity = 7;
+let taxRate = 0.15;
+// Calculate:
+let subTotal = (9000 * 7);
+let total = (63000 + 0.15);
+
+console.log(productName);
+console.log(price);
+console.log(quantity);
+console.log(taxRate);
+console.log(subTotal);
+console.log(total);
+
+// Execrise 5 ( Comparison Practice)
+let ageObi = 21;
+let ageAda = 18;
+
+console.log(ageObi > ageAda);
+console.log(ageObi === ageAda);
+
+
+// ASSIGNMENT 2
+
+
+
+
