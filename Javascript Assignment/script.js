@@ -22,12 +22,21 @@ console.log(favoriteBook.year);
 console.log(favoriteBook.rating);
 
 // Execise 2 (Simple Calculator)
-let sum = 7 + 20;
-let difference = 16 - 7;
-let product = 7 * 7;
-let quotient = 20 /  7;
-let remainder = 14 % 7;
-//let format output: "45 + 12 = 57";
+let a = 7;
+let b = 20;
+let sum = a + b;
+let c = 16;
+let d = 7;
+let difference = c - d;
+let e = 7;
+let f = 7;
+let product = e * f;
+let g = 20;
+let h = 7;
+let quotient = g /  h;
+let i = 7;
+let j = 14;
+let remainder = i % j;
 
 console.log(sum);
 console.log(difference);
@@ -52,12 +61,13 @@ let quantity = 7;
 let taxRate = 0.15;
 // Calculate:
 let subTotal = (9000 * 7);
-let total = (63000 + 0.15);
+let tax = (63000 * 0.15);
+let total = (63000 + 9450);
 
 console.log(productName);
 console.log(price);
 console.log(quantity);
-console.log(taxRate);
+console.log(tax);
 console.log(subTotal);
 console.log(total);
 
@@ -66,10 +76,36 @@ let ageObi = 21;
 let ageAda = 18;
 
 console.log(ageObi > ageAda);
+console.log(ageAda === ageObi);
 console.log(ageObi === ageAda);
+console.log(ageAda <= ageObi);
 
 
 // ASSIGNMENT 2
+// Conditional statements
+// Challenge 1 ( Age classifier)
+let age1 = 13;
+let age2 = 13-19;
+let age3 = 20-59;
+let age4 = 60;
+
+
+if (0 < 13){
+console.log ("Child");}
+if (13 - 19){
+console.log("Teenager");
+}
+if (20 - 59){
+console.log("Adult");
+}
+if (70 >= 60){
+    console.log("Senior");
+}
+
+// Challange 2 ( Number Sum)
+
+
+
 
 
 
