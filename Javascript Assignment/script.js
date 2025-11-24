@@ -84,28 +84,34 @@ console.log(ageAda <= ageObi);
 // ASSIGNMENT 2
 // Conditional statements
 // Challenge 1 ( Age classifier)
-let age1 = 13;
-let age2 = 13-19;
-let age3 = 20-59;
-let age4 = 60;
+function classifyAge (age) {
+if (0 < 13)
+console.log ("Child");
+}
 
+ if (13 - 19) {
+console.log ("Teenager");
+}
 
-if (0 < 13){
-console.log ("Child");}
-if (13 - 19){
-console.log("Teenager");
+ if (20 - 59) {
+console.log ("Adult");
 }
-if (20 - 59){
-console.log("Adult");
+
+ if (70 >= 60) {
+console.log ("Senior");
 }
-if (70 >= 60){
-    console.log("Senior");
-}
+
 
 // Challange 2 ( Number Sum)
+function sumRange (start , end){
+    
+}
 
 
-
+// Challange 3 ( Array Statistics)
+let min = 1, 2, 3, 4, 5;
+let max = 11, 12, 13, 14, 15;
+let average = 6, 7, 8, 9, 10
 
 
 
