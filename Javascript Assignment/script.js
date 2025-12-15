@@ -387,6 +387,25 @@ let modifiedJsonData = JSON.stringify(data, null, 2);
 console.log(modifiedJsonData);
 
 
+// Challenge 5 ( Template Literals )
+// Create a function generateInvoice(customer, items) that:
+//	Takes customer object: { name, email, address }
+function generateInvoice(customer, items) {
+  let totalAmount = items.reduce ((total, items) => total + (items.price * items.quantity), 0);
+   
+
+
+
+
+
+
+//	Takes items array: [{ product, price, quantity }, ...]
+
+
+//	Returns formatted invoice string using template literals
+
+
+
 
 
 
